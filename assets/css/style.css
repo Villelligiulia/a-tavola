@@ -171,4 +171,15 @@ footer {
     font-size: 2em;
     margin-bottom: 10px;
 }
+.social-icon {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #ff6347; /* Change color on hover */
+  }
 
