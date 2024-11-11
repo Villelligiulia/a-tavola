@@ -6,3 +6,44 @@ body {
     padding: 0;
    
 }
+h1,h2{
+    font-family: "Palette Mosaic", system-ui;
+    color: white;
+    font-weight: lighter;
+
+
+}
+h1{font-size: 2em;
+margin: 0;}
+
+p,li{ 
+    font-weight: 300;
+    color: white;
+}
+
+.home-header-background {
+    background-image: url('../images/utensils.webp'); 
+   
+    background-position: top;
+    
+ 
+}
+
+.header-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+#header-text {
+    background-color: rgba(0, 0, 0, 0.629);
+    padding:100px;
+}
+#home-header {
+    background-color: hsl(21.6deg 52.73% 19.27%);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+
+
+}
