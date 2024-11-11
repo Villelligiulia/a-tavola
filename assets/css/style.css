@@ -184,3 +184,62 @@ footer {
     color: #ff6347; /* Change color on hover */
   }
 
+  /* recipes.html */
+ 
+  header {
+    padding: 20px;
+    
+} 
+
+#recipe-title {
+    text-align:justify;
+}
+
+.recipe-header-background{
+        background-image: url('../images/kitchen-tools.webp'); 
+        
+        height:50vh;
+    background-position: bottom;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    
+    padding: 10px;
+    
+   
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2em;
+   
+  }
+
+
+
+
+#recipe-navbar{
+    background-color: hsl(61.48deg 84.27% 10.43% / 61%);
+}
+
+#recipe-nav-ul {
+    padding-top:20px;
+}
+
