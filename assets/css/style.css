@@ -103,3 +103,72 @@ p,li{
     color: #333;
     font-weight: 400;
 }
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    align-items: stretch;
+    
+  }
+
+  .benvenuti {
+    flex: 1; 
+   background-color: #b21a1adb;
+    padding: 20px;
+  }
+  .benvenuti h2{
+    font-size: 2rem;
+  }
+  
+  
+  .a-tavola-section {
+  
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#57806a;
+    gap: 20px; 
+    flex:3;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .a-tavola-image img {
+    max-width: 300px; 
+    height: auto;
+    border-radius: 10px;
+    float: left; 
+  margin-right: 20px; 
+  }
+  
+  .a-tavola-text {
+    flex: 1; 
+    padding-left: 20px;
+  }
+  
+  .a-tavola-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .a-tavola-text p {
+    
+    line-height: 1.6;
+    font-weight: 700;
+  }
+/* 
+footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
