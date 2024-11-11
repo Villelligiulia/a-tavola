@@ -47,3 +47,59 @@ p,li{
 
 
 }
+.main-section{
+    background-color: #a37213b0;
+    padding: 50px 0;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 0 20px;
+}
+#home{
+    background-color: #9a1d1da1;
+    
+}
+#home p,#home h2{
+    color: white;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 92%);
+    overflow: hidden;
+}
+
+.grid-item img {
+    object-fit: contain;
+    
+}
+
+
+    .grid-img {
+        width: 100%; 
+        height: auto; 
+       
+      
+       
+    }
+
+
+.grid-item h2 {
+    
+    margin-top: 10px;
+    font-size: large;
+    color: #16552c;
+}
+
+
+.grid-item p {
+    font-size: 1em;
+    color: #333;
+    font-weight: 400;
+}
