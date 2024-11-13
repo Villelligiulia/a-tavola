@@ -94,7 +94,6 @@ p,li{
 .grid-item h2 {
     
     margin-top: 10px;
-    font-size: large;
     color: #16552c;
 }
 
@@ -181,7 +180,7 @@ footer {
   }
   
   .social-icon:hover {
-    color: #ff6347; /* Change color on hover */
+    color: #ff6347; 
   }
 
   /* recipes.html */
@@ -231,15 +230,27 @@ footer {
     font-size: 1.2em;
    
   }
-
-
-
-
-#recipe-navbar{
+  #recipe-navbar{
     background-color: hsl(61.48deg 84.27% 10.43% / 61%);
 }
 
 #recipe-nav-ul {
     padding-top:20px;
 }
+
+#recipe-grid-section{
+   background-color:#bcc7a1 ;
+}
+#recipe-grid{
+    background-color: #657D54;
+}
+#recipe-grid h2{
+    color:white;
+}
+
+
+#recipe-grid:hover {
+    transform: scale(1.05);
+}
+
 
