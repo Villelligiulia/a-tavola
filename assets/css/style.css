@@ -378,6 +378,10 @@ footer {
   background-image: url(../images/tiramisu-recipe.webp);
   background-position:top;
 }
-
+#pannacotta-recipe{
+  background-image: url(../images/pannacotta-recipe.webp);
+  background-position:center;
+  
+}
 
 
