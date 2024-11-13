@@ -253,4 +253,112 @@ footer {
     transform: scale(1.05);
 }
 
+/* General structure for dish recipe */
+.dish-heading{
+    
+  margin: 0;
+  padding: 20px;
+  color: white;
+  font-weight: lighter;
+}
+
+
+
+.main-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  
+ 
+
+}
+.dish-description {
+  background-color: #272822;
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+/* Left side */
+.dish-display {
+
+  background-repeat: repeat;
+  width: 100%;
+  height: 50vh;
+ 
+ 
+}
+/* Right side  */
+.right-side-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+  background-color: #BA780D
+}
+.right-side-container li,p{
+  font-size: 1.2em;
+
+}
+
+.ingredients-section {
+ 
+  background-color: transparent;
+  padding: 20px;
+  
+}
+
+.ingredients-section h2 {
+  
+
+  margin-bottom: 10px;
+}
+
+.ingredients-section ul, .ingredients-section ol {
+  margin-left: 20px;
+  
+}
+
+.ingredients-section li {
+  margin-bottom: 10px;
+ 
+
+  list-style:disc;
+}
+
+.preparation-section{
+  padding:25px;
+}
+.preparation-section li{
+  padding-bottom: 10px;
+}
+
+.ingredients-section li,
+.preparation-section li{
+  color: black;
+}
+
+
+/* Featured dish */
+#carbonara-recipe{
+  background-image: url(../images/carbonara-recipe.webp);
+  background-position:left;
+
+
+  
+}
+#pesto-recipe{
+  background-image: url(../images/pesto-recipe.webp);
+  background-position:top;
+  
+}
+
+
 
