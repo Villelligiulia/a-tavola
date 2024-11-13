@@ -386,7 +386,7 @@ footer {
 
 /* ingredienti html */
 .ingredients-heading{
-    background-image: url('../images/ingredients-header.webp'); /* Immagine di sfondo */
+    background-image: url('../images/ingredients-header.webp'); 
     
     height:50vh;
 background-position: center;
@@ -499,4 +499,142 @@ button:hover {
   align-items: center;
   padding: 50px;
 }
+/*  navbar */
+
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+
+
+ /* Responsive styling */
+ @media (max-width: 1024px) {
+
+  /* responsive index.html */
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+  }
+}
+@media (max-width: 576px) {
+  
+  #home-header {
+      padding: 20px 0;
+  }
+  .header-content{
+      text-align: justify;
+      padding: 10px;
+  }
+  .header-content p {
+      display: none;
+  }
+
+  h1 {
+      font-size: 1.5em; 
+  }
+
+  .a-tavola-section {
+      flex-direction: column; 
+      align-items: center;
+  }
+  .welcome-container {
+      display: unset;
+  }
+
+
+  .grid-item h2 {
+      font-size: large;
+      
+  }
+
+}
+
+@media (max-width: 768px) {
+
+
+  .header-content p {
+      font-size: 1.2em; 
+  }
+
+/* responsive recipe.html */
+
+  .main-container {
+      grid-template-columns: 1fr; /* Single column layout on small screens */
+  }
+  
+  .ingredients-section {
+      margin-top: 20px; 
+  }
+}
+/* responsive menu */
+.menu-icon {
+  display: flex;
+}
+#recipe-ul,#ingredients-ul, #carbonara-ul,#pesto-ul,#parmigiana-ul,#lasagna-ul,#tiramisu-ul,#pannacotta-ul,#lasagna-ul,#spaghetti-ul,#subscribe-ul{
+display: none;
+}
+/* responsive ingredients.html */
+@media (min-width: 768px) {
+  .italian-ingredient {
+      flex-direction: row;
+      width: 600px;
+  }
+
+  .italian-ingredient img {
+      width: 50%;
+      height: auto;
+  }
+
+  .ingredients-description {
+      text-align: left;
+      padding: 20px;
+  }
+}
+
+.responsive-nav {
+  
+  
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #000000c9;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+#menu-toggle:checked + .menu-icon +  .responsive-nav{
+  display: flex;
+
+
+
+
+}
+
+
+
+
+
+
 
