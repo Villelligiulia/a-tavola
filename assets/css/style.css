@@ -185,11 +185,10 @@ footer {
 
   /* recipes.html */
  
-  header {
-    padding: 20px;
-    
-} 
-
+#recipe-header{
+  padding:20px;
+  background-color: hsl(61.48deg 84.27% 10.43% / 61%);
+}
 #recipe-title {
     text-align:justify;
 }
@@ -436,5 +435,68 @@ background-position: center;
 .ingredients-description p {
     font-size: 1rem;
     color: #555;
+}
+
+/* subscribe.html */
+#subscribe-heading {
+  padding: 30px 10px 10px;
+}
+
+#subscribe-header-container {
+  background-color: #00000096;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 20px;
+  }
+
+
+#subscribe-container{
+  text-align: unset;
+  padding: unset;
+  background-image: url(../images/utensils2.jpg);
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  color: white;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+}
+input[type="text"], input[type="email"], textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background-color: #2d722f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+.subscribe-container {
+  background-color: hsla(0, 0%, 7%, 0.553);
+  
+ 
+  align-items: center;
+  padding: 50px;
 }
 
