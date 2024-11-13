@@ -385,3 +385,56 @@ footer {
 }
 
 
+/* ingredienti html */
+.ingredients-heading{
+    background-image: url('../images/ingredients-header.webp'); /* Immagine di sfondo */
+    
+    height:50vh;
+background-position: center;
+}
+
+
+
+.ingredient-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.italian-ingredient {
+  display: flex;
+  flex-direction: row;
+        width: 600px;
+  
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.403);
+  overflow: hidden;
+  
+  text-align: center;
+    
+}
+
+.italian-ingredient img {
+    width: 50%;
+  height: auto;
+    object-fit: cover;
+}
+
+.ingredients-description {
+    padding: 15px;
+}
+
+.ingredients-description h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.ingredients-description p {
+    font-size: 1rem;
+    color: #555;
+}
+
