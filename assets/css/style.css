@@ -240,10 +240,10 @@ footer {
 #recipe-grid-section{
    background-color:#bcc7a1 ;
 }
-#recipe-grid{
+.recipe-grid{
     background-color: #657D54;
 }
-#recipe-grid h2{
+.recipe-grid h2{
     color:white;
 }
 
