@@ -1,274 +1,248 @@
 body {
-    font-family: "Onest", sans-serif;
-    font-weight: 300;
+  font-family: "Onest", sans-serif;
+  font-weight: 300;
   font-style: normal;
-    margin: 0;
-    padding: 0;
-   
+  margin: 0;
+  padding: 0;
 }
-h1,h2{
-    font-family: "Palette Mosaic", system-ui;
-    color: white;
-    font-weight: lighter;
-
-
+h1,
+h2 {
+  font-family: "Palette Mosaic", system-ui;
+  color: white;
+  font-weight: lighter;
 }
-h1{font-size: 2em;
-margin: 0;}
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
 
-p,li{ 
-    font-weight: 300;
-    color: white;
+p,
+li {
+  font-weight: 300;
+  color: white;
 }
 /* index.html */
 
 .home-header-background {
-    background-image: url('../images/utensils.webp'); 
-   
-    background-position: top;
-    
- 
+  background-image: url("../images/utensils.webp");
+
+  background-position: top;
 }
 
 .header-content p {
-    font-size: 1.5em;
-    margin-top: 10px;
-    letter-spacing: 3px;
+  font-size: 1.5em;
+  margin-top: 10px;
+  letter-spacing: 3px;
 }
 #header-text {
-    background-color: rgba(0, 0, 0, 0.629);
-    padding:100px;
+  background-color: rgba(0, 0, 0, 0.629);
+  padding: 100px;
 }
 #home-header {
-    background-color: hsl(21.6deg 52.73% 19.27%);
-    color: white;
-    text-align: center;
-    padding: 30px 0;
-    position: relative;
-
-
+  background-color: hsl(21.6deg 52.73% 19.27%);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
 }
-.main-section{
-    background-color: #a37213b0;
-    padding: 50px 0;
-    text-align: center;
+.main-section {
+  background-color: #a37213b0;
+  padding: 50px 0;
+  text-align: center;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    text-align: center;
-    padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+  padding: 0 20px;
 }
-#home{
-    background-color: #9a1d1da1;
-    
+#home {
+  background-color: #9a1d1da1;
 }
-#home p,#home h2{
-    color: white;
+#home p,
+#home h2 {
+  color: white;
 }
 
 .grid-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgb(0 0 0 / 92%);
-    overflow: hidden;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 92%);
+  overflow: hidden;
 }
 
 .grid-item img {
-    object-fit: contain;
-    
+  object-fit: contain;
 }
 
-
-    .grid-img {
-        width: 100%; 
-        height: auto; 
-       
-      
-       
-    }
-
+.grid-img {
+  width: 100%;
+  height: auto;
+}
 
 .grid-item h2 {
-    
-    margin-top: 10px;
-    color: #16552c;
+  margin-top: 10px;
+  color: #16552c;
 }
 
-
 .grid-item p {
-    font-size: 1em;
-    color: #333;
-    font-weight: 400;
+  font-size: 1em;
+  color: #333;
+  font-weight: 400;
 }
 
 .welcome-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
-    align-items: stretch;
-    
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: stretch;
+}
 
-  .benvenuti {
-    flex: 1; 
-   background-color: #b21a1adb;
-    padding: 20px;
-  }
-  .benvenuti h2{
-    font-size: 2rem;
-  }
-  
-  
-  .a-tavola-section {
-  
-    display: flex;
-    
-    justify-content: space-between;
-    padding: 20px;
-    background-color:#57806a;
-    gap: 20px; 
-    flex:3;
-    flex-wrap: wrap;
-    overflow: hidden;
-  }
-  
-  .a-tavola-image img {
-    max-width: 300px; 
-    height: auto;
-    border-radius: 10px;
-    float: left; 
-  margin-right: 20px; 
-  }
-  
-  .a-tavola-text {
-    flex: 1; 
-    padding-left: 20px;
-  }
-  
-  .a-tavola-text h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .a-tavola-text p {
-    
-    line-height: 1.6;
-    font-weight: 700;
-  }
+.benvenuti {
+  flex: 1;
+  background-color: #b21a1adb;
+  padding: 20px;
+}
+.benvenuti h2 {
+  font-size: 2rem;
+}
+
+.a-tavola-section {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #57806a;
+  gap: 20px;
+  flex: 3;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.a-tavola-image img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+.a-tavola-text {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.a-tavola-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.a-tavola-text p {
+  line-height: 1.6;
+  font-weight: 700;
+}
 /* 
 footer */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-content h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 .social-icon {
-    color: #fff;
-    margin: 0 10px;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .social-icon:hover {
-    color: #ff6347; 
-  }
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
 
-  /* recipes.html */
- 
-#recipe-header{
-  padding:20px;
+.social-icon:hover {
+  color: #ff6347;
+}
+
+/* recipes.html */
+
+#recipe-header {
+  padding: 20px;
   background-color: hsl(61.48deg 84.27% 10.43% / 61%);
 }
 #recipe-title {
-    text-align:justify;
+  text-align: justify;
 }
 
-.recipe-header-background{
-        background-image: url('../images/kitchen-tools.webp'); 
-        
-        height:50vh;
-    background-position: bottom;
+.recipe-header-background {
+  background-image: url("../images/kitchen-tools.webp");
+
+  height: 50vh;
+  background-position: bottom;
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-end;
-    
-    padding: 10px;
-    
-   
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
+  display: flex;
+  justify-content: flex-end;
+
+  padding: 10px;
 }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: lighter;
-    font-size: 1.2em;
-   
-  }
-  #recipe-navbar{
-    background-color: hsl(61.48deg 84.27% 10.43% / 61%);
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  font-size: 1.2em;
+}
+#recipe-navbar {
+  background-color: hsl(61.48deg 84.27% 10.43% / 61%);
 }
 
 #recipe-nav-ul {
-    padding-top:20px;
+  padding-top: 20px;
 }
 
-#recipe-grid-section{
-   background-color:#bcc7a1 ;
+#recipe-grid-section {
+  background-color: #bcc7a1;
 }
-.recipe-grid{
-    background-color: #657D54;
+.recipe-grid {
+  background-color: #657d54;
 }
-.recipe-grid h2{
-    color:white;
+.recipe-grid h2 {
+  color: white;
 }
-
 
 #recipe-grid:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* General structure for dish recipe */
-.dish-heading{
-    
+.dish-heading {
   margin: 0;
   padding: 20px;
   color: white;
   font-weight: lighter;
 }
 
-
-
 .main-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  
- 
-
 }
 .dish-description {
   background-color: #272822;
@@ -278,165 +252,136 @@ footer {
   padding: 30px;
 }
 
-
-
-
-
-
-
 /* Left side */
 .dish-display {
-
   background-repeat: repeat;
   width: 100%;
   height: 50vh;
- 
- 
 }
 /* Right side  */
-.right-side-container{
+.right-side-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
-  
-  background-color: #BA780D
-}
-.right-side-container li,p{
-  font-size: 1.2em;
 
+  background-color: #ba780d;
+}
+.right-side-container li,
+p {
+  font-size: 1.2em;
 }
 
 .ingredients-section {
- 
   background-color: transparent;
   padding: 20px;
-  
 }
 
 .ingredients-section h2 {
-  
-
   margin-bottom: 10px;
 }
 
-.ingredients-section ul, .ingredients-section ol {
+.ingredients-section ul,
+.ingredients-section ol {
   margin-left: 20px;
-  
 }
 
 .ingredients-section li {
   margin-bottom: 10px;
- 
 
-  list-style:disc;
+  list-style: disc;
 }
 
-.preparation-section{
-  padding:25px;
+.preparation-section {
+  padding: 25px;
 }
-.preparation-section li{
+.preparation-section li {
   padding-bottom: 10px;
 }
 
 .ingredients-section li,
-.preparation-section li{
+.preparation-section li {
   color: black;
 }
 
-
 /* Featured dish */
-#carbonara-recipe{
+#carbonara-recipe {
   background-image: url(../images/carbonara-recipe.webp);
-  background-position:left;
-
-
-  
+  background-position: left;
 }
-#pesto-recipe{
+#pesto-recipe {
   background-image: url(../images/pesto-recipe.webp);
-  background-position:top;
-  
+  background-position: top;
 }
-#parmigiana-recipe{
+#parmigiana-recipe {
   background-image: url(../images/parmigiana-recipe.webp);
-  background-position:right
-  
+  background-position: right;
 }
-#lasagna-recipe{
+#lasagna-recipe {
   background-image: url(../images/lasagna-recipe.webp);
-  background-position:top;
-  
+  background-position: top;
 }
-#spaghetti-recipe{
+#spaghetti-recipe {
   background-image: url(../images/spaghetti-recipe.webp);
-  background-position:center;
-  
+  background-position: center;
 }
-#tiramisu-recipe{
+#tiramisu-recipe {
   background-image: url(../images/tiramisu-recipe.webp);
-  background-position:top;
+  background-position: top;
 }
-#pannacotta-recipe{
+#pannacotta-recipe {
   background-image: url(../images/pannacotta-recipe.webp);
-  background-position:center;
-  
+  background-position: center;
 }
-
 
 /* ingredienti html */
 
+.ingredients-heading {
+  background-image: url("../images/ingredients-header.webp");
 
-.ingredients-heading{
-    background-image: url('../images/ingredients-header.webp'); 
-    
-    height:50vh;
-background-position: center;
+  height: 50vh;
+  background-position: center;
 }
 
-
-
 .ingredient-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
 .italian-ingredient {
   display: flex;
   flex-direction: row;
-        width: 600px;
-  
+  width: 600px;
+
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.403);
   overflow: hidden;
-  
+
   text-align: center;
-    
 }
 
 .italian-ingredient img {
-    width: 50%;
+  width: 50%;
   height: auto;
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .ingredients-description {
-    padding: 15px;
+  padding: 15px;
 }
 
 .ingredients-description h2 {
-    font-size: 1.5rem;
-    color: #2c3e50;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
 }
 
 .ingredients-description p {
-    font-size: 1rem;
-    color: #555;
+  font-size: 1rem;
+  color: #555;
 }
 
 /* subscribe.html */
@@ -450,10 +395,9 @@ background-position: center;
   justify-content: space-between;
   align-items: end;
   padding-top: 20px;
-  }
+}
 
-
-.subscribe-container{
+.subscribe-container {
   text-align: unset;
   padding: unset;
   background-image: url(../images/utensils2.jpg);
@@ -474,7 +418,9 @@ label {
   display: block;
   font-weight: bold;
 }
-input[type="text"], input[type="email"], textarea {
+input[type="text"],
+input[type="email"],
+textarea {
   width: 90%;
   padding: 10px;
   margin: 10px 0;
@@ -496,14 +442,13 @@ button:hover {
 
 .subscribe-section {
   background-color: hsla(0, 0%, 7%, 0.553);
-  
- 
+
   align-items: center;
   padding: 50px;
 }
-#thankyou{
+#thankyou {
   min-height: 100vh;
-  text-align:  center;
+  text-align: center;
 }
 .back-home-button {
   display: inline-block;
@@ -545,130 +490,109 @@ button:hover {
   transition: 0.3s;
 }
 
-
-
- /* Responsive styling */
- @media (max-width: 1024px) {
-
+/* Responsive styling */
+@media (max-width: 1024px) {
   /* responsive index.html */
   .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
   }
 }
 @media (max-width: 576px) {
-  
   #home-header {
-      padding: 20px 0;
+    padding: 20px 0;
   }
-  .header-content{
-      
-      padding: 10px;
+  .header-content {
+    padding: 10px;
   }
-  .header-content #ingredients-title h1{
+  .header-content #ingredients-title h1 {
     text-align: center;
   }
   .header-content p {
-      display: none;
+    display: none;
   }
 
   h1 {
-      font-size: 1.5em; 
+    font-size: 1.5em;
   }
 
   .a-tavola-section {
-      flex-direction: column; 
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   .welcome-container {
-      display: unset;
+    display: unset;
   }
-
 
   .grid-item h2 {
-      font-size: large;
-      
+    font-size: large;
   }
-
 }
 
 @media (max-width: 768px) {
-
-
   .header-content p {
-      font-size: 1.2em; 
+    font-size: 1.2em;
   }
 
-/* responsive recipe.html */
+  /* responsive recipe.html */
 
   .main-container {
-      grid-template-columns: 1fr; /* Single column layout on small screens */
+    grid-template-columns: 1fr; /* Single column layout on small screens */
   }
-  
+
   .ingredients-section {
-      margin-top: 20px; 
+    margin-top: 20px;
   }
   /* responsive ingredients.html */
   .italian-ingredient {
     flex-direction: column;
     width: 100%;
-}
-.italian-ingredient img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
+  }
+  .italian-ingredient img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
 
-
-/* responsive menu */
-.menu-icon {
-  display: flex;
-}
-#recipe-ul,#ingredients-ul, #carbonara-ul,#pesto-ul,#parmigiana-ul,#lasagna-ul,#tiramisu-ul,#pannacotta-ul,#lasagna-ul,#spaghetti-ul,#subscribe-ul{
-display: none;
-}
-.responsive-nav {
-  
-  
-  flex-direction: column;
-  position: absolute;
-  top: 50px;
-  right: 0;
-  background-color: #000000c9;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-}
-#menu-toggle:checked + .menu-icon +  .responsive-nav{
-  display: flex;
-
-
-
-
-}
+  /* responsive menu */
+  .menu-icon {
+    display: flex;
+  }
+  #recipe-ul,
+  #ingredients-ul,
+  #carbonara-ul,
+  #pesto-ul,
+  #parmigiana-ul,
+  #lasagna-ul,
+  #tiramisu-ul,
+  #pannacotta-ul,
+  #lasagna-ul,
+  #spaghetti-ul,
+  #subscribe-ul {
+    display: none;
+  }
+  .responsive-nav {
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #000000c9;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  #menu-toggle:checked + .menu-icon + .responsive-nav {
+    display: flex;
+  }
 }
 /* responsive ingredients.html */
 @media (min-width: 768px) {
   .italian-ingredient {
-      flex-direction: row;
-      width: 600px;
+    flex-direction: row;
+    width: 600px;
   }
-
-
 
   .ingredients-description {
-      text-align: left;
-      padding: 20px;
+    text-align: left;
+    padding: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
